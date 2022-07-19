@@ -53,8 +53,13 @@ func fillArr(arr []int) {
 	}
 }
 
-func partition(arr []int) int { //Basic implementation
-	return len(arr)/2
+func partition(arr []int) int {
+	midway := len(arr)/2
+	left := midway-midway/2
+	right := midway+midway/2
+	tmp := []int{left, midway, right} //The easy way out.
+	insertionSort(tmp)
+	return tmp[1]
 }
 
 func insertionSort(arr []int) {
