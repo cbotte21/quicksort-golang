@@ -6,8 +6,7 @@ The project includes a test case which compares equality between 1000 arrays sor
 
 How-to use:
   1) Compile to independent executable
-    - go build
-    - ./optimized-quicksort.exe
+    - go build && ./optimized-quicksort.exe
   2) Run via go runtime
     - go run main.go
   3) Run tests
