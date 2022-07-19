@@ -21,7 +21,8 @@ var rangeNums int
 
 func main() {
 	//Credits
-	fmt.Println("An optimized quicksort programmed in golang.\nBy: Cody Botte\n")
+	fmt.Println("An optimized quicksort programmed in golang.\nBy: Cody Botte")
+	fmt.Println()
 
 	//Variable initializaions
 	rand.Seed(5)
